@@ -86,7 +86,6 @@
         1 ; If there are no differences, the profiles are identical
         (/ (apply + (hash-values diff-profile)) num-diffs)))) ; Otherwise, compute the average absolute difference between the profiles
 
-;;;; Given two author profiles and a mystery profile, predict which author wrote the mystery text
 ;;; Given two author profiles and a mystery profile, predict which author wrote the mystery text
 ;;; Use macro to get variable names at runtime
 (define-syntax-rule (predict-author author-profile1 author-profile2 mystery-profile)
