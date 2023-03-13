@@ -5,8 +5,8 @@
 ;;;;; 03/12/2023
 ;;;;; CS 490 FP Program 2 - imperative version
 
-;;;;; This program currently uses mutable hash tables
-;;;;; I am in the process of refactoring the code into a more functional style that avoids the use of mutable data structures and loop constructs
+;;;;; This program uses a mixture of functional and imperative styles
+;;;;; I am in the process of refactoring the code into a purely functional style that avoids the use of mutable data structures and loop constructs
 ;;;;; I encountered some issues with correctly implementing the immutable hash tables, so I am including the imperitve version as a fallback solution for now
 
 ;;; Reads a text file and generates a hash table of word frequencies. 
