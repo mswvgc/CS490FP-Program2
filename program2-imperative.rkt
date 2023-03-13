@@ -73,7 +73,7 @@
 (define mystery1-profile (process-file "/home/mw/Downloads/Input_Files/mystery1.txt"))
 (define mystery2-profile (process-file "/home/mw/Downloads/Input_Files/mystery2.txt"))
 
-;;;; Compare two author profiles and return a measure of their differences
+;;; Compare two author profiles and return a measure of their differences
 (define (compare-profiles profile1 profile2)
   
   ;; Create hash table to store the differences between the profiles
