@@ -68,6 +68,9 @@
     (hash-update! word-frequencies k (lambda (old-val) (* -1 (log (/ old-val total) 10))) 0))
   word-frequencies)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;; Replace with proper file paths;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (define doyle-profile (process-file "/home/mw/Downloads/Input_Files/Doyle.txt"))
 (define lovecraft-profile (process-file "/home/mw/Downloads/Input_Files/Lovecraft.txt"))
 (define mystery1-profile (process-file "/home/mw/Downloads/Input_Files/mystery1.txt"))
